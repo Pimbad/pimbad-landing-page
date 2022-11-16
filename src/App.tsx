@@ -1,26 +1,42 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { useRoutes } from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import AboutPage from './pages/about/about.page';
+import ContactPage from './pages/contact/contact.page';
+import HomePage from './pages/home/home.page';
+import ReviewsPage from './pages/reviews/reviews.page';
+import ServicesPage from './pages/services/services.page';
+
+const App = () => {
+    const routes = [
+        {
+            path: '/',
+            element: <HomePage />
+        },
+        {
+            path: '/about',
+            element: <AboutPage />
+        },
+        {
+            path: '/contact',
+            element: <ContactPage />
+        },
+        {
+            path: '/review',
+            element: <ReviewsPage />
+        },
+        {
+            path: '/services',
+            element: <ServicesPage />
+        }];
+
+    const routing = useRoutes(routes);
+
+    return (
+        <section className="App">
+            {routing}
+        </section>
+    );
 }
 
 export default App;
