@@ -1,9 +1,11 @@
-const FooterComponent = () => {
-    return(
-        <header>
+import './footer.component.css'
 
-        </header>
+const Footer = () => {
+    return(
+        <footer>
+            <h1>Footer</h1>
+        </footer>
     )
 }
 
-export default FooterComponent;
+export default Footer;
