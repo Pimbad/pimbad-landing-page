@@ -14,19 +14,23 @@ const App = () => {
             element: <HomePage />
         },
         {
-            path: '/about',
+            path: '/inicio',
+            element: <HomePage />
+        },
+        {
+            path: '/sobre-nos',
             element: <AboutPage />
         },
         {
-            path: '/contact',
+            path: '/contato',
             element: <ContactPage />
         },
         {
-            path: '/review',
+            path: '/avaliacoes',
             element: <ReviewsPage />
         },
         {
-            path: '/services',
+            path: '/servicos',
             element: <ServicesPage />
         }];
 
