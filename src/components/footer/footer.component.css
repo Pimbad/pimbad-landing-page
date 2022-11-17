@@ -44,6 +44,28 @@ footer{
     font-size: 1rem !important;
 }
 
+.footer-first-item i{
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    background: var(--button-title-color);
+    color: var(--background-color);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 1.2rem;
+}
+
+.footer-first-icon{
+    margin-left: 0px !important;
+}
+
+.footer-first-item i:hover{
+    background: var(--title-color);
+    transition: .5s;
+}
+
+
 .footer-item{
     flex: 1;
     height: 100%;

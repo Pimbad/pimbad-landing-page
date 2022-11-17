@@ -14,6 +14,15 @@ const Footer = () => {
                         Pimbd é o serviço multi plataforma para contratar serviços de saúde
                         que garantem a segurança para o seu pet!
                     </p>
+                    <a href='https://www.instagram.com'>
+                        <i className='fa-brands fa-instagram footer-first-icon'></i>
+                    </a>
+                    <a href='https://facebook.com'>
+                        <i className='fa-brands fa-facebook'></i>
+                    </a>
+                    <a href='https://tiktok.com'>
+                        <i className='fa-brands fa-tiktok'></i>
+                    </a>
                 </div>
                 <div className='footer-item'>
                     <h4>Acesso rápido</h4>
