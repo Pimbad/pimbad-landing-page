@@ -41,7 +41,7 @@ footer{
     width: 350px;
     text-align: justify;
     color: var(--title-color);
-    font-size: 1.25rem !important;
+    font-size: 1rem !important;
 }
 
 .footer-item{
@@ -51,7 +51,7 @@ footer{
 
 .footer-item p{
     margin-top: 20px;
-    font-size: 1.1rem;
+    font-size: .9rem;
     color: var(--button-title-color);
 }
 
@@ -61,7 +61,7 @@ footer{
     border: 2px solid var(--button-title-color);
     border-radius: 5px;
     width: 300px;
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 .footer-item button{
@@ -69,7 +69,7 @@ footer{
     padding: 15px;
     background: var(--button-title-color);
     color: var(--background-color);
-    font-size: 1.2rem;
+    font-size: .9rem;
     border-radius: 5px;
     transition: .5s;
 }
@@ -83,7 +83,7 @@ footer{
 .footer-item h4{
     font-weight: bold;
     color: var(--title-color);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .footer-item ul{
@@ -92,7 +92,7 @@ footer{
 
 .footer-item li{
     margin-top: 20px;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     font-weight: 400;
     list-style-type: none;
     color: var(--button-title-color);
