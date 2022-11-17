@@ -15,3 +15,8 @@
 	font-family: Ubuntu;
     font-stretch: normal;
 }
+
+body{
+    overflow-x: hidden;
+    background-color: var(--secondary-background-color);
+}
