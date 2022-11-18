@@ -94,6 +94,15 @@ const Header = () => {
                     </div>
                 </div>
             </div>
+
+            <div className='responsive-header-content'>
+                <div className='responsive-logo'>
+
+                </div>
+                <div className='responsive-header-spread-menu'>
+
+                </div>
+            </div>
         </header>
     )
 }
