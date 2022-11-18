@@ -1,13 +1,12 @@
 header{
+    margin-bottom: 30px;
+}
+
+.default-header-content{
+    display: flex;
     height: 80px;
     width: 100vw;
     top: 0;
-}
-
-.header-content{
-    display: flex;
-    width: 100%;
-    height: 100%;
 }
 
 .header-logo{
@@ -78,4 +77,118 @@ header{
 .header-highlight-item{
     background: var(--button-color);
     color: var(--background-color) !important; 
+}
+
+.responsive-header-content{
+    display: none;
+    height: 50px;
+    width: 100vw;
+    top: 0;
+}
+
+.responsive-logo{
+    flex: 5.5;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-top: 3px;
+}
+
+.responsive-logo img{
+    width: 60px;
+    margin-left: 20px;
+}
+
+.responsive-logo h3{
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+.responsive-header-spread-menu{
+    flex: 1.5;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.responsive-header-spread-menu i{
+    color: var(--button-title-color);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.responsive-menu{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: block;
+    background: rgba(0, 0, 0, .85);
+    transition: .5s;
+    display: none;
+}
+
+.responsive-menu-content{
+    width: 70vw;
+    height: 100vh;
+    background: var(--secondary-background-color);
+    position: fixed;
+    margin-left: -100vw;
+    transition: .5s;
+}
+
+.responsive-menu-close{
+    width: 98.3vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.responsive-menu-close span{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-right: 30px;
+    color: var(--background-color);
+    cursor: pointer;
+}
+
+.responsive-menu-itens{
+    width: 100%;
+    height: 80%;
+}
+
+.responsive-menu-item{
+    height: 50px;
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-top: 1px solid rgba(0,0,0,.15);
+    cursor: pointer;
+}
+
+.responsive-menu-item a{
+    text-decoration: none;
+    color: var(--button-title-color);
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+@media (max-width: 1000px){
+    footer{
+        display: none !important;
+    }
+
+    .default-header-content{
+        display: none !important;
+    }
+    
+    .responsive-header-content{
+        display: flex;
+    }
 }
