@@ -4,7 +4,7 @@ import './home.page.css'
 const HomePage = () => {
     return(
         <section>
-            <p>Home Page</p>
+            <p>Home P</p>
         </section>
     )
 }
