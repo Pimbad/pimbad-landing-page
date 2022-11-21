@@ -127,6 +127,7 @@ header{
     background: rgba(0, 0, 0, .85);
     transition: .5s;
     display: none;
+    z-index: 5;
 }
 
 .responsive-menu-content{
@@ -136,6 +137,7 @@ header{
     position: fixed;
     margin-left: -100vw;
     transition: .5s;
+    z-index: 10;
 }
 
 .responsive-menu-close{
@@ -180,10 +182,6 @@ header{
 }
 
 @media (max-width: 1000px){
-    footer{
-        display: none !important;
-    }
-
     .default-header-content{
         display: none !important;
     }

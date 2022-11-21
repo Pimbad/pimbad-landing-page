@@ -16,7 +16,11 @@
     font-stretch: normal;
 }
 
+html{
+    overflow-x: hidden !important;
+}
+
 body{
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     background-color: var(--secondary-background-color);
 }

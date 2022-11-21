@@ -14,15 +14,17 @@ const Footer = () => {
                         Pimbd é o serviço multi plataforma para contratar serviços de saúde
                         que garantem a segurança para o seu pet!
                     </p>
-                    <a href='https://www.instagram.com'>
-                        <i className='fa-brands fa-instagram footer-first-icon'></i>
-                    </a>
-                    <a href='https://facebook.com'>
-                        <i className='fa-brands fa-facebook'></i>
-                    </a>
-                    <a href='https://tiktok.com'>
-                        <i className='fa-brands fa-tiktok'></i>
-                    </a>
+                    <div className='footer-icons'>
+                        <a href='https://www.instagram.com'>
+                            <i className='fa-brands fa-instagram footer-first-icon'></i>
+                        </a>
+                        <a href='https://facebook.com'>
+                            <i className='fa-brands fa-facebook'></i>
+                        </a>
+                        <a href='https://tiktok.com'>
+                            <i className='fa-brands fa-tiktok'></i>
+                        </a>
+                    </div>
                 </div>
                 <div className='footer-item'>
                     <h4>Acesso rápido</h4>
@@ -48,7 +50,7 @@ const Footer = () => {
                     <h4>Newsletter</h4>
                     <p>Inscreva - se na nossa newsletter!</p>
                     <input type="text" name='newsletter_email' placeholder='Digite seu email!'/>
-
+                    <br />
                     <button>Increver - se</button>
                 </div>
             </div>
