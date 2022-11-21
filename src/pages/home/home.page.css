@@ -1,3 +1,102 @@
-p { 
-    color: red;
+*{  
+    background-color: rgba(250, 250, 241, 0.8) ;
 }
+
+/* Formatação Imagem*/
+
+.holder {
+    display: flex;
+    justify-content: center;
+}
+.imagem {
+  width: 150px;
+  margin: -250px;
+  position: relative;
+  text-align: left;
+}
+.imagem::after {
+  content: attr(data-title); 
+  position: absolute;
+  width: 100%;
+  bottom: -20px;
+  left: 0;
+}
+
+
+
+.title{
+    font-family: 'American Typewriter, serif';
+    margin-top: 35px;
+    margin-left: 60px;
+    text-align: left;
+    max-width: 400px;
+    max-height: 300px;
+    font-size: 40px;
+    font-weight:bold;
+    color: blueviolet;
+}
+
+/* Formatação Sub-Titutlo*/
+
+.subTitle{
+    font-family: 'Times New Roman', Times, serif;
+    color: blueviolet;
+    max-width: 350px;
+    margin-top: 25px;
+    margin-left: 120px;
+    text-align: left;
+}
+
+/* Formatação botao*/
+
+.btn-principal {
+    margin-left: 120px; 
+    margin-top: -350px;
+	box-shadow: 3px 4px 9px 2px #af79c4;
+	background:linear-gradient(to bottom, #af79c4 5%, #a455c4 100%);
+	background-color:#af79c4;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:flex;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:10px 48px;
+	text-decoration:none;
+	text-shadow:2px 2px 18px #000000;
+}
+.btn-principal:hover {
+	background:linear-gradient(to bottom, #a455c4 5%, #af79c4 100%);
+	background-color:#a455c4;
+}
+.btn-principal:active {
+	position:relative;
+	top:1px;
+}
+
+/* Formatação botao transparente*/
+.btn-transp {
+    margin-left: 480px; 
+    margin-top: -35px;
+	display:flex;
+	cursor:pointer;
+	color:#d62828;
+	font-family:Arial;
+	font-size:17px;
+	text-decoration:none;
+}
+.btn-transp:hover {
+	background-color:#ad1717;
+}
+.btn-transp:active {
+	position:absolute;
+	top:1px;
+}
+
+        
+
+
+
+
