@@ -1,7 +1,9 @@
 footer{
-    width: 100vw;
+    width: 90vw;
     height: 350px;
     bottom: 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
     position: relative;
     margin-top: 50px;
     display: flex;
