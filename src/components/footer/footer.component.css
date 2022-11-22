@@ -18,7 +18,7 @@ footer{
     margin-bottom: 20px;
     padding-top: 50px;
     display: flex;
-    border-top: 1px solid rgba(0,0,0,.2);
+    border-top: 1px solid rgba(0,0,0,.1);
 }
 
 .footer-first-item{
@@ -94,7 +94,8 @@ footer{
     background: var(--button-title-color);
     color: var(--background-color);
     font-size: .9rem;
-    border-radius: 5px;
+    border-radius: 30px;
+    font-weight: bold;
     transition: .5s;
 }
 
