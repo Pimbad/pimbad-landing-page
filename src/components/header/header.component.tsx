@@ -35,13 +35,7 @@ const Header = () => {
 
                     <div className='responsive-menu-item' onClick={closeResponsiveMenu}>
                         <Link to='/sobre-nos'>
-                            Sobre Nós
-                        </Link>
-                    </div>
-
-                    <div className='responsive-menu-item' onClick={closeResponsiveMenu}>
-                        <Link to='servicos'>
-                            Serviços
+                            Sobre
                         </Link>
                     </div>
 
@@ -81,10 +75,7 @@ const Header = () => {
                         <Link to='/'>Início</Link>
                     </div>
                     <div className='header-item'>
-                        <Link to='/sobre-nos'>Sobre Nós</Link>
-                    </div>
-                    <div className='header-item'>
-                        <Link to='/servicos'>Serviços</Link>
+                        <Link to='/sobre-nos'>Sobre</Link>
                     </div>
                     <div className='header-item'>
                         <Link to='/avaliacoes'>Avaliações</Link>
@@ -92,15 +83,6 @@ const Header = () => {
                     <div className='header-item header-last-item'>
                         <Link to='/contato' className='header-highlight-item'>Contato</Link>
                     </div>
-                </div>
-            </div>
-
-            <div className='responsive-header-content'>
-                <div className='responsive-logo'>
-
-                </div>
-                <div className='responsive-header-spread-menu'>
-
                 </div>
             </div>
         </header>

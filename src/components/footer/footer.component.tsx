@@ -30,7 +30,7 @@ const Footer = () => {
                     <h4>Acesso rápido</h4>
                     <ul>
                         <li><Link to='/'>Início</Link></li>
-                        <li><Link to='/servicos'>Serviços</Link></li>
+                        <li><Link to='/'>Serviços</Link></li>
                         <li><Link to='/avaliacoes'>Avaliações</Link></li>
                         <li><Link to='/'>Redes Sociais</Link></li>
                         <li><Link to='/'>Seja um parceiro</Link></li>
@@ -39,7 +39,7 @@ const Footer = () => {
                 <div className='footer-item'>
                     <h4>Precisa de ajuda?</h4>
                     <ul>
-                        <li><Link to='/sobre-nos'>Sobre nós</Link></li>
+                        <li><Link to='/sobre-nos'>Sobre</Link></li>
                         <li><Link to='/contato'>Contato</Link></li>
                         <li><Link to='/'>FAQ</Link></li>
                         <li><Link to='/'>Newsletter</Link></li>
