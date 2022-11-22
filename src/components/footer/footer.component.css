@@ -86,6 +86,7 @@ footer{
     border-radius: 5px;
     width: 300px;
     font-size: .8rem;
+    color: var(--button-title-color);
 }
 
 .footer-item button{
