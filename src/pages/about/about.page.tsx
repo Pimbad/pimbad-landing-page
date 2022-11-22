@@ -29,7 +29,7 @@ const AboutPage = () => {
             <div className='about-third-block'>
                 <div className='about-third-block-content'>
                     <div className='about-third-block-text'>
-                        <div className='about-third-block-text-item'>
+                        <div className='about-third-block-text-title-item'>
                             <h2>Juntos nós somos mais fortes</h2>
                         </div>
 
