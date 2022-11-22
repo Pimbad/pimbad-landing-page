@@ -5,7 +5,6 @@ import AboutPage from './pages/about/about.page';
 import ContactPage from './pages/contact/contact.page';
 import HomePage from './pages/home/home.page';
 import ReviewsPage from './pages/reviews/reviews.page';
-import ServicesPage from './pages/services/services.page';
 
 const App = () => {
     const routes = [
@@ -28,10 +27,6 @@ const App = () => {
         {
             path: '/avaliacoes',
             element: <ReviewsPage />
-        },
-        {
-            path: '/servicos',
-            element: <ServicesPage />
         }];
 
     const routing = useRoutes(routes);

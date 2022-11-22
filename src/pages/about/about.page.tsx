@@ -15,7 +15,7 @@ const AboutPage = () => {
 
                 <div className='about-first-block-item'>
                     <p>
-                        &nbsp;&nbsp;Uma plataforma para entregar conforto e praticidade aos donos de pet
+                        Uma plataforma para entregar conforto e praticidade aos donos de pet
                         e gestão eficiente para os petshops e estabelecimentos especializados
                         em saúde e estética animal.
                     </p>
