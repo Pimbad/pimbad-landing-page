@@ -1,3 +1,7 @@
+body{
+    background-color:#ffffff;
+}
+
 .home-first-block{
     display: flex;
     width: 90vw;
@@ -127,8 +131,8 @@
 
 .flex-container { 
     height: 120px;
-    padding: 10px;
     display: flex;
+    float: center;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -136,13 +140,12 @@
   }
   
 .flex-items{
-    display: block;
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: auto;
-    align-self: auto;
-    order: 0;
-    border: 1px solid black;
+    width: 2px;
+    height: 2px;
+    margin-left: -170px;
+    margin-top: -110px;
+    float: left; 
+    
   }
 
   .home-three-block h2{
@@ -174,8 +177,33 @@
     text-align: left;
 }
 
+
+/* FLEXBOX FINAL */
+
+.flex-home-one{
+    margin-left: -50px;
+    margin-top: 20px;
+    float: left;
+    background-color: var(--button-title-color);
+    border-radius:29px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    padding:13px 50px;
+    text-decoration:none;
+}
+.flex-home-one:hover {
+    transition: 0.5s;
+    z-index: 5;
+	background-color:#010235;
+}
+.flex-home-one:active {
+	position:relative;
+	top:1px;
+}
+
 .flex-container-six {
-     height: 280px;
+    height: 280px;
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -194,28 +222,15 @@
 	position:relative;
 	top:1px;
 }
-.flex-home-one{
-    margin-left: 80px;
-    margin-top: 20px;
-    float: left;
-    background-color: var(--button-title-color);
-    border-radius:29px;
-    display:inline-block;
-    cursor:pointer;
-    color:#ffffff;
-    font-size:18px;
-    padding:13px 56px;
-    text-decoration:none;
+
+.home-title{
+    float: center;
+    font-size: 18px;
+    height: 6em;
+    width: 11em;
+
 }
-.flex-home-one:hover {
-    transition: 0.5s;
-    z-index: 5;
-	background-color:#010235;
-}
-.flex-home-one:active {
-	position:relative;
-	top:1px;
-}
+
  
 
 

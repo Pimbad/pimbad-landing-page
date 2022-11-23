@@ -29,8 +29,7 @@ const HomePage = () => {
                     <div className='home-first-block-sticker'>
                         <div className="home-first-app">
 
-                   <a href=" # ">  <img src='images/home-ahttps://localhost:3000/
-                   pple.png' className='img-apple' alt="Apple" /> </a>
+                   <a href=" # ">  <img src='images/home-apple.png' className='img-apple' alt="Apple" /> </a>
                    <a href=" # "> <img src='images/home-play-store.png' className='img-play-store' alt="Play-store" /> </a>                  
                         </div>
                     </div>
@@ -45,10 +44,10 @@ const HomePage = () => {
             <div className='home-second-block'>
                 <div className="home-second-block-item">   
                     <div className='flex-container'>
-                <div className="flex-items">EMPRESA UM</div>
-                <div className="flex-items">EMPRESA DOIS</div>
-                <div className="flex-items">EMPRESA TRES</div>
-                <div className="flex-items">EMPRESA QUATRO</div>
+                <div className="flex-items"> <img src='images/home-job1.png' className='img-trabalho' alt="Principal" /> </div>
+                <div className="flex-items"> <img src='images/home-job2.png' className='img-trabalho' alt="Principal" /> </div>
+                <div className="flex-items"> <img src='images/home-job3.png' className='img-trabalho' alt="Principal" /> </div>
+                <div className="flex-items"> <img src='images/home-job4.png' className='img-trabalho' alt="Principal" /> </div>
                     </div>
                 </div>
             </div>
@@ -73,15 +72,45 @@ const HomePage = () => {
                     <div className='flex-container-six'>
                   
                 <div className="flex-items">
-                      <button type="submit" className='flex-home-one'> #1 </button>
+                      <a type="submit" className='flex-home-one'> 
+                      
+                    <h1 className='home-title'>
+                         Medical administrator
+                    </h1>
+
+                      <p className='home-text'>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quo in dignissimos,
+                         veniam voluptatibus incidunt nesciunt laudantium? Consequatur recusandae iure quis 
+                         laboriosam nam, dolores corporis sunt, cum vero id optio?</p>
+                       </a>
                 </div>
 
                 <div className="flex-items">
-                      <button type="submit" className='flex-home-one'> #2 </button>
+                <a type="submit" className='flex-home-one'> 
+                      
+                      <h1 className='home-title'>
+                           Medical administrator
+                      </h1>
+  
+                        <p className='home-text'>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quo in dignissimos,
+                           veniam voluptatibus incidunt nesciunt laudantium? Consequatur recusandae iure quis 
+                           laboriosam nam, dolores corporis sunt, cum vero id optio?</p>
+                         </a>
                 </div>
 
                 <div className="flex-items"> 
-                      <button type="submit" className='flex-home-one'> #3 </button>
+                <a type="submit" className='flex-home-one'> 
+                      
+                      <h1 className='home-title'>
+                           Medical administrator
+                      </h1>
+  
+                        <p className='home-text'>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quo in dignissimos,
+                           veniam voluptatibus incidunt nesciunt laudantium? Consequatur recusandae iure quis 
+                           laboriosam nam, dolores corporis sunt, cum vero id optio?</p>
+                         </a>
                 </div>
                     </div>
                 </div>
@@ -92,15 +121,45 @@ const HomePage = () => {
                     <div className='flex-container-six'>
 
                     <div className="flex-items">
-                      <button type="submit" className='flex-home-one'> #4 </button>
+                    <a type="submit" className='flex-home-one'> 
+                      
+                      <h1 className='home-title'>
+                           Medical administrator
+                      </h1>
+  
+                        <p className='home-text'>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quo in dignissimos,
+                           veniam voluptatibus incidunt nesciunt laudantium? Consequatur recusandae iure quis 
+                           laboriosam nam, dolores corporis sunt, cum vero id optio?</p>
+                         </a>
                     </div>
                 
                 <div className="flex-items">
-                    <button type="submit" className='flex-home-one'> #5 </button>
+                <a type="submit" className='flex-home-one'> 
+                      
+                      <h1 className='home-title'>
+                           Medical administrator
+                      </h1>
+  
+                        <p className='home-text'>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quo in dignissimos,
+                           veniam voluptatibus incidunt nesciunt laudantium? Consequatur recusandae iure quis 
+                           laboriosam nam, dolores corporis sunt, cum vero id optio?</p>
+                         </a>
                 </div>
 
                 <div className="flex-items">
-                    <button type="submit" className='flex-home-one'> #6 </button>
+                <a type="submit" className='flex-home-one'> 
+                      
+                      <h1 className='home-title'>
+                           Medical administrator
+                      </h1>
+  
+                        <p className='home-text'>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quo in dignissimos,
+                           veniam voluptatibus incidunt nesciunt laudantium? Consequatur recusandae iure quis 
+                           laboriosam nam, dolores corporis sunt, cum vero id optio?</p>
+                         </a>
                 </div>                
 
                     </div>
