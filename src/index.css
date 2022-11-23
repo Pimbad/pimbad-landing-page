@@ -1,11 +1,10 @@
 :root{
     --background-color: #FFFFFF;
-    --secondary-background-color: #FDF8F4;
     --title-color: #1E144F;
     --font-color: #857E9B;
     --button-color: #72569D;
     --button-title-color: #684d91;
-    --focused-button-color: #FEEBDC;
+    --focused-button-color: rgb(243, 239, 247);
 }
 
 *{
@@ -23,5 +22,5 @@ html{
 body{
     overflow-x: hidden !important;
     overflow-y: hidden !important;
-    background-color: var(--secondary-background-color);
+    background-color: var(--background-color);
 }
