@@ -135,7 +135,7 @@ header{
 .responsive-menu-content{
     width: 70vw;
     height: 100vh;
-    background: var(--secondary-background-color);
+    background: var(--background-color);
     position: fixed;
     margin-left: -100vw;
     transition: .5s;
